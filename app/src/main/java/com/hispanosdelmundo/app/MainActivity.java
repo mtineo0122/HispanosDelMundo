@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
         myWebView = (WebView) findViewById(R.id.webView);
         WebSettings webSettings = myWebView.getSettings();
-        webSettings.setJavaScriptEnabled(true);
+//        webSettings.setJavaScriptEnabled(true); \\\\
 //        myWebView.loadUrl("http://www.hispanosdelmundo.com/");
         myWebView.loadUrl("https://testingsitesssblog.wordpress.com/");
         myWebView.setWebViewClient(new WebViewClient());
